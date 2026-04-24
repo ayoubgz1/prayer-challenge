@@ -23,7 +23,7 @@ return(
 
     <>
     <div onMouseEnter={()=>setCursorText(`${Hour}:${Minute}`)} onMouseLeave={()=>{setCursorText('MAWAKIT')}}
-     className="Clock  bg-[url(public/HR-26.jpg)]
+     className="Clock  bg-[url(/HR-26.jpg)]
         bg-cover bg-center bg-no-repeat w-4/5 h-[350px] object-cover flex justify-center
          items-center  rounded-2xl shadow-2xl shadow-amber-50/[0.3]
          p-8 transition-all z-40
